@@ -90,8 +90,6 @@ for i, v in enumerate(values):
 plt.show()
 
 
-
-
 plt.figure(figsize=(8, 6))
 plt.scatter(y_test, y_pred, alpha=0.6)
 plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], color='red', linestyle='--')
