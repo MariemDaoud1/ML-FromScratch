@@ -42,3 +42,12 @@ print('Intercept: \n', linear.intercept_)
 # predictions = linear.predict(X_test)
 # for x in range(len(predictions)):
 #     print(f'Predicted: {predictions[x]}, Data: {X_test[x]}, Actual: {y_test[x]}')   
+
+# Plotting
+p = "absences"
+m = "G3"
+style.use("ggplot")
+pyplot.scatter(data[p], data[m])
+pyplot.xlabel(p)
+pyplot.ylabel(m)
+pyplot.show()
